@@ -1,0 +1,15 @@
+{"status":"success",
+ "data": {"resultType":"vector",
+          "result":[{"metric": {"__name__":"goobers_total",
+                                  "container":"kube-rbac-proxy",
+                                  "endpoint":"https",
+                                  "instance":"172.17.88.145:8443",
+                                  "job":"frontendoperator-controller-manager-metrics-service",
+                                  "namespace":"frontendoperator-system",
+                                  "pod":"frontendoperator-controller-manager-6f7b64bf8f-2cv5p",
+                                  "service":"frontendoperator-controller-manager-metrics-service"},
+                                  "value":[1649681715.685,"7"]
+                                  }
+                    ]
+        }
+}
