@@ -46,7 +46,7 @@ func main() {
 	fmt.Println("*******************************")
 	fmt.Println("-> Use Prometheus API to get counter values")
 
-	// 0. Define Prometheus REST API request
+	// 0. Define Prometheus HTTP API request
 	goobers_query := "goobers_total"
 	prom_api_call := "api/v1/query?query="
 	// Insert URL with environment variable
